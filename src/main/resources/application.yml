@@ -1,0 +1,27 @@
+#spring:
+#  redis:
+#    database: 0
+#    host: 192.168.237.130
+#    port: 6379
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: Ya1996!A
+##    url: jdbc:mysql://localhost:8848/user
+#    url: jdbc:mysql://192.168.237.130:3306/user
+#  flyway:
+#    enabled: false
+#    locations: classpath:db
+#
+#logging:
+#  level:
+#    root: INFO
+#    com.example.user.mapper: info
+#
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+
+server:
+  port: 8989
+  servlet:
+    context-path: /strategy
